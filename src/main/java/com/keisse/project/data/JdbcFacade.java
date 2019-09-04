@@ -1,4 +1,4 @@
-package com.keisse.project.wrapper;
+package com.keisse.project.presentation.wrapper;
 
 import java.io.Closeable;
 import java.sql.*;
@@ -7,16 +7,17 @@ public class JdbcFacade implements Closeable, AutoCloseable {
     private static Connection con;
     private static Statement stmt;
     private static PreparedStatement pstmt;
-    private static JdbcFacade instance;
+    private static JdbcFacade instance=new JdbcFacade(); //eargerly initiating
 
     private JdbcFacade() {
-        getConnection();
-        instance = getInstance();
+        con = getConnection();
+        //instance = getInstance();
     }
 
     public static JdbcFacade getInstance() {
-       if(instance!=null) return instance;
-       else return new JdbcFacade();
+        if (instance == null) return new JdbcFacade();
+        return instance;
+
     }
 
     private static Connection getConnection() {
@@ -36,39 +37,39 @@ public class JdbcFacade implements Closeable, AutoCloseable {
     }
 
     public static void executeStatement(String sql) {
-        try{
-            stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+        try {
+            stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
             stmt.executeQuery(sql);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
 
-    public static void updateStatement(String sql){
-        try{
-            stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+    public static void updateStatement(String sql) {
+        try {
+            stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
             stmt.executeUpdate(sql);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
 
-    public static ResultSet selectStatement(String sql) {
+    public static ResultSet selectStatement(String table,String column, String condition) {
         try {
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            return stmt.executeQuery(sql);
+            return stmt.executeQuery("SELECT * FROM " + table + "WHERE " + column + "='" +condition+"'");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-    return null;
+        return null;
     }
 
-    public static void executePreparedStatement(){
-
+    public static void executePreparedStatement() {
+        //TODO
     }
 
-    public static void addToPreparedStatement(){
-
+    public static void addToPreparedStatement() {
+        //TODO
     }
 
     private static void closeConnection() {

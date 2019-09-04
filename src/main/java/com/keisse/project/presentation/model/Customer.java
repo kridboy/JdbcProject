@@ -1,11 +1,12 @@
 package com.keisse.project.model;
 
-public class Customer{
-    final int customerID;
-    final String firstName;
-    final String lastName;
-    final String address;
-    final String email;
+//TODO don't think i really need this? it's just a lookup table
+public class Customer {
+    private int customerID;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private String email;
 
     public Customer(int customerID, String firstName, String lastName, String address, String email) {
         this.customerID = customerID;
@@ -39,4 +40,10 @@ public class Customer{
     public String toString() {
         return String.valueOf(customerID);
     }
+
+
+    public void update(int customerID, String firstName, String lastName, String address, String email) {
+
+    }
+
 }

@@ -1,5 +1,6 @@
-package com.keisse.project.wrapper;
+package com.keisse.project.data.wrapper;
 
+import com.keisse.project.data.JdbcFacade;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

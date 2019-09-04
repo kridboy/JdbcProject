@@ -1,18 +1,18 @@
 package com.keisse.project.model;
 
 public class Item {
-    final int itemID;
-    final int orderID;
-    final int count;
-    final int breederID;
-    final int breedID;
+    private int itemID;
+    private int orderID;
+    private int count;
+    private int breederID;
+    private int breedID;
 
-    public Item(int itemID, int orderID, int count, int breederID, int breedID) {
+    public Item(int itemID, int orderID, int breederID, int breedID, int count) {
         this.itemID = itemID;
         this.orderID = orderID;
-        this.count = count;
         this.breederID = breederID;
         this.breedID = breedID;
+        this.count = count;
     }
 
     public int getItemID() {
@@ -33,5 +33,10 @@ public class Item {
 
     public int getBreedID() {
         return breedID;
+    }
+
+
+    public void update(int itemID, int orderID, int count, int breederID, int breedID) {
+
     }
 }
