@@ -1,4 +1,4 @@
-package com.keisse.project.model;
+package com.keisse.project.presentation.model;
 
 import java.math.BigDecimal;
 
@@ -19,6 +19,10 @@ public class Breed {
 
     public BigDecimal getPrice() {
         return price;
+    }
+
+    public int getBreedID() {
+        return breedID;
     }
 
     public void update(int breedID, String breedname, BigDecimal price) {

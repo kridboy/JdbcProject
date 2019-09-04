@@ -1,4 +1,4 @@
-package com.keisse.project.model;
+package com.keisse.project.presentation.model;
 
 public class Item {
     private int itemID;

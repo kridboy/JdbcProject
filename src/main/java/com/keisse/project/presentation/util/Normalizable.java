@@ -1,4 +1,4 @@
-package com.keisse.project.util;
+package com.keisse.project.presentation.util;
 
 public interface Normalizable<T> {
    void newEntryToDB();

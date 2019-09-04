@@ -1,9 +1,8 @@
-package com.keisse.project.data.wrapper;
+package com.keisse.project.data;
 
-import com.keisse.project.data.JdbcFacade;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 class JdbcFacadeTest {
     //TODO use mockito for checking classes!

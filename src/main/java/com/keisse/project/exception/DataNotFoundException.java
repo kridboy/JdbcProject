@@ -1,4 +1,5 @@
 package com.keisse.project.exception;
 
-public class DataNotFoundException {
+public class DataNotFoundException extends RuntimeException {
+
 }

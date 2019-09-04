@@ -1,4 +1,4 @@
-package com.keisse.project.model;
+package com.keisse.project.presentation.model;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;

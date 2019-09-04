@@ -1,4 +1,4 @@
-package com.keisse.project.model;
+package com.keisse.project.presentation.model;
 
 //TODO don't think i really need this? it's just a lookup table
 public class Customer {

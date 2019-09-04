@@ -1,13 +1,14 @@
-package com.keisse.project.presentation.wrapper;
+package com.keisse.project.data;
 
 import java.io.Closeable;
 import java.sql.*;
 
+//TODO implement this in a try with resources!
 public class JdbcFacade implements Closeable, AutoCloseable {
     private static Connection con;
     private static Statement stmt;
     private static PreparedStatement pstmt;
-    private static JdbcFacade instance=new JdbcFacade(); //eargerly initiating
+    private static JdbcFacade instance = new JdbcFacade(); //eargerly initiating
 
     private JdbcFacade() {
         con = getConnection();
@@ -54,10 +55,10 @@ public class JdbcFacade implements Closeable, AutoCloseable {
         }
     }
 
-    public static ResultSet selectStatement(String table,String column, String condition) {
+    public static ResultSet selectStatement(String table, String column, String condition) {
         try {
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            return stmt.executeQuery("SELECT * FROM " + table + "WHERE " + column + "='" +condition+"'");
+            return stmt.executeQuery("SELECT * FROM " + table + " WHERE " + column + "='" + condition + "'");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
