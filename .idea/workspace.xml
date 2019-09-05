@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3beaeec-b62d-4fed-9d5c-510ae41e5973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/data/JdbcFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/data/JdbcFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/data/ModelDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/data/ModelDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/exception/DataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/exception/DataNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/FormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/FormatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/Normalizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/Normalizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keisse/project/data/JdbcFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keisse/project/data/JdbcFacadeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,170 +37,6 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="221">
-                    <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-                    <folding>
-                      <element signature="e#516#517#0" expanded="true" />
-                      <element signature="e#546#547#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breeder.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="136">
-                    <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="81" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Item.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="153">
-                    <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="78" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Customer.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="102">
-                    <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Order.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="15" selection-start-line="15" selection-end-line="15" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/data/JdbcFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <element signature="e#2452#2453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/data/ModelDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1972">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5682#5683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/JdbcFacadeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/FormatUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/exception/DataNotFoundException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/Normalizable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -217,30 +49,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/keisse/project/wrapper/JdbcFacadeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/BreederLinkTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/util/Normalizable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/util/Updatable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/wrapper/JdbcFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/Breed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/model/Breeder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/util/ModelDAO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/keisse/project/util/ModelDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/exception/DataNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/keisse/project/data/JdbcFacadeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/data/ModelDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keisse/project/data/JdbcFacade.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -259,180 +67,8 @@
   </component>
   <component name="ProjectId" id="1QJeT0O6AnPDnD1809X5ugV2Cwu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="keisse" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567622861552" />
@@ -468,9 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ModelDAOTest">
-    <configuration name="JdbcFacadeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oefening1" />
+  <component name="RunManager" selected="JUnit.ModelDAOTest (1)">
+    <configuration name="ModelDAOTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.keisse.project.data.*" />
@@ -478,39 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.keisse.project.data" />
-      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.JdbcFacadeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcFacadeTest.executeStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oefening1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keisse.project.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keisse.project.data" />
-      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.JdbcFacadeTest" />
-      <option name="METHOD_NAME" value="executeStatement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcFacadeTest.updateStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oefening1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keisse.project.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keisse.project.data" />
-      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.JdbcFacadeTest" />
-      <option name="METHOD_NAME" value="updateStatement" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.ModelDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -525,6 +130,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.keisse.project.data" />
       <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.ModelDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelDAOTest.getBreedByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keisse.project.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keisse.project.data" />
+      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.ModelDAOTest" />
+      <option name="METHOD_NAME" value="getBreedByName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -545,13 +167,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ModelDAOTest.removeBreed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keisse.project.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keisse.project.data" />
+      <option name="MAIN_CLASS_NAME" value="com.keisse.project.data.ModelDAOTest" />
+      <option name="METHOD_NAME" value="removeBreed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModelDAOTest (1)" />
+        <item itemvalue="JUnit.ModelDAOTest.removeBreed" />
+        <item itemvalue="JUnit.ModelDAOTest.getBreedByName" />
         <item itemvalue="JUnit.ModelDAOTest" />
         <item itemvalue="JUnit.ModelDAOTest.getOrderByID" />
-        <item itemvalue="JUnit.JdbcFacadeTest" />
-        <item itemvalue="JUnit.JdbcFacadeTest.updateStatement" />
-        <item itemvalue="JUnit.JdbcFacadeTest.executeStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -570,227 +208,28 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 20m 04s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 20m 55s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 22m 35s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 23m 17s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcFacadeTest - 2019.09.04 at 19h 24m 19s.xml">
-      <configuration name="JdbcFacadeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcFacadeTest - 2019.09.04 at 19h 45m 26s.xml">
-      <configuration name="JdbcFacadeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest_getOrderByID - 2019.09.04 at 19h 45m 31s.xml">
-      <configuration name="ModelDAOTest.getOrderByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 46m 19s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 19h 48m 33s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelDAOTest - 2019.09.04 at 20h 26m 29s.xml">
-      <configuration name="ModelDAOTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23911000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48286605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/model/BreederLinkTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/util/Updatable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/Normalizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/exception/DataNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/JdbcFacadeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/util/FormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/data/JdbcFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="e#2452#2453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keisse/project/data/ModelDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1972">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5682#5683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/keisse/project/data/ModelDAOTest.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/keisse/project/presentation/model/Breed.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

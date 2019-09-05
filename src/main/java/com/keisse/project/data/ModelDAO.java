@@ -125,7 +125,7 @@ public class ModelDAO {
     }
 
     public static void removeBreed(Breed breed) {
-        JdbcFacade.executeStatement("DELETE FROM breeds WHERE BreedID='" + breed.getBreedID() + "'");
+        JdbcFacade.executeStatement("DELETE FROM breeds WHERE BreedID=" + breed.getBreedID());
     }
 
     public static void removeBreeder(Breeder breeder) {
@@ -140,8 +140,19 @@ public class ModelDAO {
     public static void removeOrder(Order order) {
         JdbcFacade.executeStatement("DELETE FROM Orders WHERE OrderID='" + order.getOrderID() + "'");
         JdbcFacade.executeStatement("DELETE FROM Items WHERE OrderID='" + order.getOrderID() + "'");
+
     }
 
+    public static int highestTableIndex(String table){
+        try {
+            ResultSet rs = JdbcFacade.selectStatement("SELECT MAX("+table.substring(0,table.length()-1)+"ID) FROM " +table);
+            rs.next();
+            return rs.getInt(1);
+        } catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+
+    }
     public void updateRow(String sql) {
         JdbcFacade.updateStatement(sql);
     }

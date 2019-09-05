@@ -65,6 +65,16 @@ public class JdbcFacade implements Closeable, AutoCloseable {
         return null;
     }
 
+    public static ResultSet selectStatement(String sql) {
+        try {
+            stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+            return stmt.executeQuery(sql);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return null;
+    }
+
     public static void executePreparedStatement() {
         //TODO
     }

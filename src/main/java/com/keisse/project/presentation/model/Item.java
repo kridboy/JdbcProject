@@ -15,6 +15,13 @@ public class Item {
         this.count = count;
     }
 
+    public Item( int orderID, int breederID, int breedID, int count) {
+        this.orderID = orderID;
+        this.breederID = breederID;
+        this.breedID = breedID;
+        this.count = count;
+    }
+
     public int getItemID() {
         return itemID;
     }

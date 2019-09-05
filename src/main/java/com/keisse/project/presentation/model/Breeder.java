@@ -13,6 +13,12 @@ public class Breeder {
         this.phoneNumber = phoneNumber;
     }
 
+    public Breeder(String name, String contact, String phoneNumber) {
+        this.name = name;
+        this.contact = contact;
+        this.phoneNumber = phoneNumber;
+    }
+
     public int getBreederID() {
         return breederID;
     }
